@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "oofd-kz-telegram"
+version = "0.1.0"
+description = ""
+authors = ["Kirill Olar <kirill.olar26@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+oofd-kz-parser = { git = "https://github.com/skroll182/oofd-kz-parser", branch = "main" }
+pydantic = "^1.8.2"
+aiogram = "^2.16"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+black = "^21.10b0"
+isort = "^5.10.1"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
