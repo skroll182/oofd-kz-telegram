@@ -370,7 +370,7 @@ selenium = "^4.0.0"
 type = "git"
 url = "https://github.com/skroll182/oofd-kz-parser"
 reference = "main"
-resolved_reference = "fd8612521e881697753e0ace23e7ca9a7ffe7242"
+resolved_reference = "0a13317954cc8e211e740533fe75c3dbb85163c1"
 
 [[package]]
 name = "outcome"
