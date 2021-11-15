@@ -9,6 +9,9 @@ python = "^3.9"
 oofd-kz-parser = { git = "https://github.com/skroll182/oofd-kz-parser", branch = "main" }
 pydantic = "^1.8.2"
 aiogram = "^2.16"
+motorengine = "^1.0.0"
+html5lib = "^1.1"
+Pillow = "^8.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
